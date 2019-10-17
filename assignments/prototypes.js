@@ -76,6 +76,10 @@ function Hero(player) {
 
 }
 
+Hero.prototype.attack = function() {
+    Villian.call(takeDamage);
+}
+
 Hero.prototype = Object.create(Humanoid.prototype);
 
 function Villian(player) {
