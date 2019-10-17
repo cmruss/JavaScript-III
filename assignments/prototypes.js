@@ -89,9 +89,10 @@ function Villian(player) {
 
 Villian.prototype = Object.create(Humanoid.prototype);
 
-Villian.prototype.attack = function() {
-    Hero.call(takeDamage);
-}
+// Villian.prototype.attack = function() {
+//     Hero.call(takeDamage);
+//     let hero.healthPoints = hero.healthPoints--;
+// }
 
 /*
  * Inheritance chain: GameObject -> CharacterStats -> Humanoid
